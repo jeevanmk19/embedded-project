@@ -1,0 +1,28 @@
+
+Changing the analog input voltage results in corresponding changes in the
+displayed ADC values.
+
+---
+
+## Testing & Verification
+
+The implementation was tested on hardware using:
+- Serial terminal output (PuTTY)
+- Real-time ADC value updates
+
+Optional verification using oscilloscope or demonstration video may be included
+in the repository.
+
+---
+
+## Tools Used
+
+- STM32CubeIDE
+- PuTTY (Serial Terminal)
+- GitHub
+
+---
+
+## Author
+
+Jeevan M K
