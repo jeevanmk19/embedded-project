@@ -1,0 +1,30 @@
+
+---
+
+## Hardware Used
+
+- Board: STM32 Blackpill (STM32F401)
+- ADC Input: PA0
+- Timer: TIM2
+- UART: USART2 (PA2 – TX, PA3 – RX)
+- Baud Rate: 115200
+- Terminal: PuTTY
+
+---
+
+## Software Approach
+
+- Bare-metal register-level programming
+- Timer-based hardware triggering (no software delays)
+- DMA-based ADC data transfer
+- Interrupt-driven UART communication
+
+This approach ensures precise timing, reduced CPU load, and efficient peripheral
+operation.
+
+---
+
+## Expected Output
+
+The ADC values are transmitted at 100 Hz and displayed on the serial terminal:
+
